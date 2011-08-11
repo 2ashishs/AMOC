@@ -1,0 +1,15 @@
+About:
+	AMOC 2011 is an International Conference to be held at IIT Roorkee, India. Since I was given the task
+to design the website for the event, I checked out many conference website designs. Then I came accross
+a free web template, which I modified according to the needs of the conference. It just turned out to be
+quite exciting so I decided to share. Enjoy !!
+
+Structure:
+	-common
+		Contains the php files which define the stucture of each page of the website. doctype-and-head contains
+		the header part. nav-and-title contains the navigation menu, add or remove pages from the list. footer
+		contains the footer information at the bottom of the page.
+	-css
+		Contains the style.css file which specifies style of various elements on the webpage.
+	-Other folders and files are self explanatory.
+

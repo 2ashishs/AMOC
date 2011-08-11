@@ -1,0 +1,56 @@
+/*
+	 DocTemplate
+*/
+
+*					                     { margin: 0; padding: 0; }
+body				                     { font: 12px "Lucida Grande", Helvetica, Arial, Sans-Serif; background: #333; }
+html                                     { overflow-y: scroll; }
+a                                        { text-decoration: none; outline: 0; }
+a img                                    { border: 0; }
+#page-wrap		                         { width: 750px; margin: 0 auto; position: relative; }
+
+#nav-bar                                 { background: url(../images/navbar-bg.png) repeat-y; width: 191px; position: fixed; -moz-border-radius-bottomleft: 18px; -moz-border-radius-bottomright: 18px; -webkit-border-bottom-left-radius: 18px; -webkit-border-bottom-right-radius: 18px; -moz-border-radius-topleft: 18px; -moz-border-radius-topright: 18px; -webkit-border-top-left-radius: 18px; -webkit-border-top-right-radius: 18px;}
+#nav-bar ul                              { list-style: none; margin: 40px 0 30px 0; }
+#nav-bar ul li                           { font-size: 14px; text-align: right; }
+body#amoc ul li.amoc a,
+body#home ul li.home a,
+body#iitr ul li.iitr a,
+body#register ul li.register a,
+body#information ul li.information a,
+body#papers ul li.papers a,
+#nav-bar ul li.active a                  { position: relative; background: white; z-index: 300; border-bottom-color: white; border-top-color: white; }
+#nav-bar ul li.active a:hover            { background: white; }
+#nav-bar ul li a                         { display: block; padding: 10px 40px 10px 5px; border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2); color: #444; text-shadow: 1px 1px 1px white; font-weight: bold; }
+#nav-bar ul li:first-child a             { border-top: 0; }
+#nav-bar ul li:last-child a              { border-bottom: 0; }
+#nav-bar ul li a:hover                   { background: rgba(0,0,0,0.07); }
+
+
+h1                                       { font: bold 32px Helvetica, Sans-Serif; letter-spacing: -1px; padding: 18px 0 18px 210px; }
+h1 a                                     { color: white; }
+h1 a span                                { background: #4660e2; padding: 3px 8px; -moz-border-radius: 4px; -webkit-border-radius: 4px; color: white; font-size: 20px; letter-spacing: 0; position: relative; top: -6px; font-weight: normal;  }
+h1 a:hover span:after                    { content: " Download!"; font-size: 11px; position: relative; bottom: 2px;  }
+#main-content                            { position: relative; z-index: 200; margin: 0 0 0 180px; background: white; -moz-border-radius: 18px; -webkit-border-radius: 18px; -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.6); -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.6); padding: 30px; min-height: 500px; }
+#ajax-loader                             { display: none; position: absolute; top: 100px; left: 280px; }
+
+#nav-bar .support                        { text-align: left; margin: 0 25px 20px 20px; }
+#nav-bar .support h4                     { text-transform: uppercase; border-bottom: 1px solid #4660e2; color: #4660e2; padding-bottom: 5px; margin-bottom: 5px; }
+#nav-bar .support ul                     { margin: 0 0 0 12px; list-style: disc; }
+#nav-bar .support ul li                  { text-align: left; font-size: 11px; margin: 0 0 4px 0; }
+
+#footer                                  { position: relative; z-index: 350; margin: 15px 0 15px 210px; color: white; }
+
+
+/*
+    Typography
+*/
+p                                        { line-height: 1.5; margin: 0 0 15px 0; }
+.callout                                 { background: #fdfce4; padding: 15px; border: 1px solid #fff000; -moz-border-radius: 6px; -webkit-border-radius: 6px; }                  
+h2                                       { font-size: 24px; margin: 0 0 15px 0; color: #4660E2; }
+h3                                       { font-size: 20px; margin: 0 0 15px 0; color: #4660E2 }
+h4                                       { font-size: 16px; margin: 0 0 15px 0; text-transform: uppercase; }
+pre                                      { padding: 15px; background: #eee; border: 1px solid #666; margin: 0 0 15px 0; white-space: pre-wrap; }
+code                                     { font: 11px Monaco, Courier, MonoSpace; }
+
+#main-content a                          { text-decoration: underline; }
+#main-content a:hover                    { text-decoration: none; border-bottom: 2px solid #4660e2; }
